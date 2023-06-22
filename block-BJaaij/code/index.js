@@ -79,6 +79,7 @@ class BookList{
 
 let book1 = new Book("think and grow" , "rav" , "ravindra" );
 let book2 = new Book("think" , "ravindra" , "raju" );
-
+console.log(book1)
 let bookList1 = new BookList();
 bookList1.add([book1, book2]);
+console.log("hello")
