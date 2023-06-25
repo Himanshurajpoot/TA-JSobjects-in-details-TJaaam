@@ -1,0 +1,97 @@
+html {
+    font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+// custom  styling
+
+span {
+    cursor: pointer;
+}
+
+.heading {
+    font-size: 5rem;
+    margin: 3rem 0rem;
+
+    i,
+    span {
+        color: rgb(7, 99, 130);
+    }
+}
+
+form {
+
+    input {
+        width: 100%;
+        padding: 1rem;
+        margin: 1.5rem 0rem;
+        border: 1px solid rgb(137, 136, 136);
+        outline: 0;
+    }
+
+    label {
+        font-size: 1.4rem;
+        color: rgb(61, 60, 60);
+    }
+
+    button {
+        width: 100%;
+        padding: 0.8rem;
+        border: 0;
+        background-color: rgb(7, 99, 130);
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}
+
+table {
+    margin-top: 4rem;
+    width: 100%;
+
+    thead {
+        background: wheat;
+        width: 100%;
+        font-size: 1.25rem;
+        color: rgb(83, 82, 82);
+
+    }
+
+
+    th,
+    td {
+        text-align: start;
+        padding: 0.7rem;
+    }
+
+
+
+    span {
+        margin-left: 1.5rem;
+    }
+
+    .creatrUiTr {
+        background-color: rgb(182, 180, 180);
+        box-shadow: 0px 0px 10px 1px gray;
+    }
+
+
+}
